@@ -1,6 +1,6 @@
-# GitHub useful tricks 
+# GitHub step-by-step
 
-#### Save GitHub Password with SSH key 
+## Save GitHub Password with SSH key 
 
 SSH keys are generally more secure than passwords/tokens and save you from re-entering credentials:
 
@@ -22,8 +22,36 @@ Test Your Connection:
       
 If successful, you’ll see a “Hi username! You've successfully authenticated…” message.
 
-#### Use SSH URLs when cloning/pulling/pushing:
+## Use SSH URLs when cloning/pulling/pushing:
 
             git clone git@github.com:username/repo-name.git
 
 This method means no more password or token prompts, although you may need to unlock your SSH key once per session (if you used a passphrase).
+
+
+## get a file into your GitHub repository from the command line:
+
+1. If you don’t have a local copy of your repository yet, first clone it from GitHub:
+
+        ## clone SSH 
+        git clone https://github.com/username/repository-name.git
+        cd repository-name
+
+2. Add the file to Git’s staging area
+   
+       git add your-file-name
+
+3. Commit your changes
+
+       git commit -m "write your comment"
+
+4. Push changes
+
+       git push origin main
+
+If your default branch is named something else replace main with that branch name.
+
+
+
+
+
