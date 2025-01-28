@@ -17,11 +17,13 @@ Add Public Key to GitHub:
 Go to GitHub SSH settings and paste the copied public key.
 
 Test Your Connection:
+
       ssh -T git@github.com
+      
 If successful, you’ll see a “Hi username! You've successfully authenticated…” message.
 
 #### Use SSH URLs when cloning/pulling/pushing:
 
-git clone git@github.com:username/repo-name.git
+            git clone git@github.com:username/repo-name.git
 
 This method means no more password or token prompts, although you may need to unlock your SSH key once per session (if you used a passphrase).
