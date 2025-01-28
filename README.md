@@ -6,7 +6,7 @@ SSH keys are generally more secure than passwords/tokens and save you from re-en
 
 Generate an SSH Key (if you don’t already have one):
 
-    ssh-keygen -t ed25519 -C "your_email@example.com"
+    ssh-keygen -t ed25519 -C "yourname@ua.edu"
 
 Press Enter to accept default file location (e.g. ~/.ssh/id_ed25519).
 Enter a passphrase for added security (optional but recommended).
