@@ -1,7 +1,7 @@
 import torch
 
 # Check if pyTorch is using CPU 
-# It should print False because CUDA works on GPUs only
+# It should print False because CUDA works on GPU only
 print(f"Is CUDA available? {torch.cuda.is_available()}")
 print(f"Device being used: {torch.device('cpu')}")
 
