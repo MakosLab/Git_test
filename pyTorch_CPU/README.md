@@ -1,4 +1,4 @@
-## 1. Set Up a conda environment for pyTorch_CPU
+## 1. Load Conda on CHPC or UAHPC
       source /share/apps/modulefiles/conda_init.sh 
 
 ## 2. Create and activate pyTorch environment
