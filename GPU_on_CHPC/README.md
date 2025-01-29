@@ -11,7 +11,7 @@
 
       python -c "import torch; print(torch.cuda.is_available())"
 
-If it prints True, then PyTorch is ready to use your GPU.
+If it prints 'True', then PyTorch is ready to use your GPU.
 
 ## 4. Submit your job. 
 
