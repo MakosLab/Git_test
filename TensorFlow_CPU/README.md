@@ -17,7 +17,7 @@
       
       pip install numpy pandas matplotlib scikit-learn
 
-## 4. Run your script 
+## 5. Run your script 
 
       python tensorflow_test.py
 
