@@ -22,6 +22,12 @@ Test Your Connection:
       
 If successful, you’ll see a “Hi username! You've successfully authenticated…” message.
 
+## Git Init
+
+            git init
+            
+'git init' turns any directory into a Git repository.
+
 ## Use SSH URLs when cloning/pulling/pushing:
 
             git clone git@github.com:username/repo-name.git
