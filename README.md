@@ -9,7 +9,9 @@ Generate an SSH Key (if you don’t already have one):
     ssh-keygen -t ed25519 -C "yourname@ua.edu"
 
 Press Enter to accept default file location (e.g. ~/.ssh/id_ed25519).
-Press Enter/Return 3x so in the future you don't have to type any passwords
+Press Enter/Return 3x so in the future you don't have to type any passwords.
+
+
 Add Public Key to GitHub:
 
         cat ~/.ssh/id_ed25519.pub
