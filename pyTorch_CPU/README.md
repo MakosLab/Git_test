@@ -15,7 +15,11 @@
 
 If installed correctly, this will print the PyTorch version.
 
-## 5. Run your script 
+## 5. Install additional liberies
+      
+      pip install numpy pandas matplotlib scikit-learn
+      
+## 6. Run your script 
 
       python pytorch_cpu_test.py
 
