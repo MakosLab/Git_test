@@ -57,7 +57,11 @@ This method means no more password or token prompts, although you may need to un
 
 If your default branch is named something else replace main with that branch name.
 
+## pull any changes from the remote repository
 
+    git pull
+
+this will fetch the latest commits and merge them into your local branch.
 
 
 
