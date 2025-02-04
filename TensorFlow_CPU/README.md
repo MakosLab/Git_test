@@ -13,7 +13,7 @@
 
       python -c "import tensorflow as tf; print(tf.__version__)"
 
-## 5. Install additional liberies
+## 5. Install additional Libraries
       
       pip install numpy pandas matplotlib scikit-learn
 
